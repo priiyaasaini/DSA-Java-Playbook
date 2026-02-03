@@ -1,6 +1,6 @@
 🚀 Java DSA Playbook
 
-A structured and consistent Data Structures & Algorithms playbook built using Java, focused on strengthening problem-solving skills and preparing for top product-based company interviews.
+DSA programming solutions with clean code, notes, and optimized approaches. A structured and consistent Data Structures & Algorithms playbook built using Java, focused on strengthening problem-solving skills and preparing for top product-based company interviews.
 
 This repository documents my journey from DSA fundamentals to advanced problem-solving, with clean code, optimized approaches, and clear explanations.
 
