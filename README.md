@@ -1,10 +1,10 @@
-🚀 Java DSA Playbook
+**🚀 Java DSA Playbook**
 
 DSA programming solutions with clean code, notes, and optimized approaches. A structured and consistent Data Structures & Algorithms playbook built using Java, focused on strengthening problem-solving skills and preparing for top product-based company interviews.
 
 This repository documents my journey from DSA fundamentals to advanced problem-solving, with clean code, optimized approaches, and clear explanations.
 
-🎯 Purpose of This Repository
+**🎯 Purpose of This Repository**
 
 Build strong problem-solving skills using Java
 
@@ -12,7 +12,7 @@ Master core Data Structures & Algorithms
 
 Practice writing clean, readable, interview-quality code
 
-🛠 Tech Stack
+**🛠 Tech Stack**
 
 Language: Java
 
@@ -20,7 +20,7 @@ IDE:VS Code
 
 Platform: LeetCode, GeeksforGeeks
 
-🧩 Problem Structure
+**🧩 Problem Structure**
 
 Each problem includes:
 
@@ -32,6 +32,6 @@ Each problem includes:
 
 🔹 Time & space complexity
 
-🤝 Connect
+**🤝 Connect**
 
 If you’re also preparing for DSA or product-based companies, feel free to connect and collaborate.
