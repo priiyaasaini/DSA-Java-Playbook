@@ -12,14 +12,26 @@ public class revNum{
 
     // function/method for reverse Number
     public static int reverse(int x) {
-   int reverseNo=0;
-    int lastDigit;
+        int reverseNo = 0;
 
-    while(x!=0){
-        lastDigit=x%10;
-        reverseNo=reverseNo*10+lastDigit;
-        x=x/10;
+        while (x != 0) {
+            int lastDigit = x % 10;
+            x = x / 10;
+
+            // overflow check BEFORE updating reverseNo
+            if (reverseNo > Integer.MAX_VALUE / 10 ||
+               (reverseNo == Integer.MAX_VALUE / 10 && lastDigit > 7)) {
+                return 0;
+            }
+            if (reverseNo < Integer.MIN_VALUE / 10 ||
+               (reverseNo == Integer.MIN_VALUE / 10 && lastDigit < -8)) {
+                return 0;
+            }
+
+            reverseNo = reverseNo * 10 + lastDigit;
+        }
+
+        return reverseNo;
     }
-    return reverseNo;
-    }
+
 }
