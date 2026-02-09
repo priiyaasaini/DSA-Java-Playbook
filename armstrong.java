@@ -1,4 +1,5 @@
-// armstrong number is the number where sum of the cubes if each digit is eual to the number
+// armstrong number is the number where sum of the cubes
+//  of each digit is equal to the number
 
 public class armstrong {
     public static void main(String[] args) {

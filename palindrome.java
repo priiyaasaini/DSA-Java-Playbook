@@ -24,6 +24,6 @@ public class palindrome {
 System.out.println("Enter Value");
 int x=sc.nextInt();
 System.out.println(isPalindrome(x));
-    
+    sc.close();
 }
 }

@@ -8,6 +8,7 @@ public class revNum{
         System.out.println("Enter you number");
         int x=sc.nextInt();
         System.out.println("reverse number : " + reverse(x));
+        sc.close();
     }
 
     // function/method for reverse Number
