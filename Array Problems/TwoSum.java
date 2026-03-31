@@ -18,7 +18,7 @@
  */
 import java.util.*;
 
-class Solution {
+class Solution1 {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
 
