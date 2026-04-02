@@ -30,8 +30,8 @@
 // Used in problems involving:
 // - contiguous subarray
 // - max/min sum optimization
-class Solution{
-    public int maxSubArray(int[] nums) {
+class maxSubArray{
+    public int findMaxSubArray(int[] nums) {
         int bestEnding=nums[0];
         int ans=nums[0];
         for (int i=1;i<nums.length;i++){
